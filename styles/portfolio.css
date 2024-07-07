@@ -51,6 +51,12 @@ nav li a {
 .dark-2 {
     color: #E44A4A;
 }
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+.text-primary{
+    color: #FD6E0A;
+}
 
 .btn-primary {
     background-color: #FD6E0A;
@@ -108,7 +114,7 @@ main section{
     font-size: 35px;
     font-weight: bold;
     color: #181818;
-    text-align: center;
+    
 }
 
 .section-description{
@@ -155,6 +161,59 @@ main section{
     box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.05);
     border-radius: 5px;
 }
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-description{
+    color: #757575;
+}
+.experience-sub-title{
+    font-size: 15px;
+    color: #757575;
+    margin-bottom:20px;
+}
+
+.experience-title{
+    font-size: 20px;
+    color: #474747;
+}
+.resume-column-title{
+    font-size: 25px;
+    color: #474747;
+}
+.text-center{
+    text-align: center;
+}
+.resume-download-cv{
+    margin-top: 40px;
+}
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;
+}
+.footer-column{
+    width: 50%;
+}
+.first{
+    display: block;
+    margin-top: 20px ;
+    width: 495px;
+    height: 50px;
+    border-radius: 4px;
+    padding: 10px 20px;
+    border: none;
+}
+.second{
+    margin-top: 20px;
+    display: block;
+    border-radius: 4px;
+    padding: 10px 20px;
+    border: none;
+}
+
+
 
 
    
