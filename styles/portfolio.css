@@ -197,7 +197,7 @@ main section{
 footer{
     padding: 130px 230px;
     display: flex;
-    gap: 117px;
+    gap: 100px;
 }
 .footer-column{
     width: 50%;
@@ -219,7 +219,42 @@ footer{
     border: none;
 }
 
+/* Responsive media query */
+ .hide{
+    display: none;
+ }
 
+ @media screen and (max-width: 576px) {
+    .skills-container, footer{
+        flex-direction: column;
+        /* background-color: #E44A4A; */
+    }
+    .resume-container, .resume{
+        flex-direction: column; 
+        width: 70%;
+
+    }
+    footer{
+        flex-direction: column;
+        padding: 20px;
+       
+    }
+    .footer-column{
+        width: 100%;
+      
+    }
+    .first, .second, .footer {
+        width: calc(100% - 40px);
+    }
+
+    .about-items{
+        flex-direction: column;
+    }
+    .about{
+        padding: 0px;
+    }
+    
+ }
 
 
    
