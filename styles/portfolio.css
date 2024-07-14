@@ -225,13 +225,13 @@ footer{
  }
 
  @media screen and (max-width: 576px) {
-    .skills-container, footer{
+    .skills-container, footer, .banner, nav, nav > ul{
         flex-direction: column;
         /* background-color: #E44A4A; */
     }
     .resume-container, .resume{
         flex-direction: column; 
-        width: 70%;
+        width: auto;
 
     }
     footer{
@@ -253,6 +253,23 @@ footer{
     .about{
         padding: 0px;
     }
+    .banner{
+        margin: 30%;
+    }
+    .banner-profile-pic{
+        width: 200px;
+    }
+    .banner-greetings{
+        font-size: 40px;
+    }
+    nav > ul{
+        gap: 20px;
+    }
+    .btn-primary{
+        margin-bottom: 20px;
+    }
+
+    
     
  }
 
